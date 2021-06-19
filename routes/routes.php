@@ -7,6 +7,7 @@ $router = new Router(BASE_URL);
 $router->namespace("App\\Controllers");
 
 $router->get("/","HomeController:index");
+$router->get("/listagem","InventoryController:index");
 $router->get("/404","NotFoundController:index");
 
 $router->dispatch();
