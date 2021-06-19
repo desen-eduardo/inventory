@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    background-color: #EEE;
+    width:100%;
+}
+
+main{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height:50px;
+    width:100%;
+    background: linear-gradient(to top, rgb(248, 80, 50), rgb(231, 56, 39));
+    box-sizing: border-box;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header > h1{
+    font-size: 1.2rem;
+    color:#fff;
+    text-decoration: underline;
+}
+
+section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section .card {
+    max-width: 1000px;
+    width:100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.card .card-title{
+    width: 100%;
+    height:40px;
+    border-radius: 5px 5px 0 0;
+    background:  linear-gradient(to top, rgb(248, 80, 50), rgb(231, 56, 39));
+    color: #fff;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.card .card-body{
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card .card-body .form-group{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 0.85rem;
+    color:#333;
+    padding: 10px 0;
+}
+
+input[type=text],input[type=number]{
+    width:100%;
+    height:40px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.btn-center{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 200px;
+    height:40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-success{
+    background: rgb(60,115,38);
+}
+
+
+

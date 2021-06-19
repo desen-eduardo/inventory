@@ -1,4 +1,30 @@
 {% extends "template/layout.twig" %}
 {% block content %}
-exemplo da home
+<div class="card">
+    <div class="card-title">Cadastro de Estoque</div>
+    <div class="card-body">
+        <form method="post" action="">
+            <div class="form-group">
+                <label for="descricao">Descrição</label>
+                <input type="text" placeholder="Descrição" id="descricao">
+            </div>
+
+            <div class="form-group">
+                <label for="qts">Quantidade</label>
+                <input type="number" value="1" min="1" id="qts">
+            </div>
+
+            <div class="form-group">
+                <label for="preco">Preço</label>
+                <input type="text" placeholder="R$ 0,00" id="preco">
+            </div>
+
+            <div class="form-group">
+                <div class="btn-center">
+                    <button class="btn btn-success" type="submit">Salvar</button>
+                </div>    
+            </div>
+        </form>
+    </div>
+</div>
 {% endblock %}
