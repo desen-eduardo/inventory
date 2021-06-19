@@ -1,5 +1,33 @@
 {% extends "template/layout.twig" %}
 
 {% block content %}
-    Em construção
+    <div class="card">
+        <div class="card-title">Listagem de Estoque</div>
+        <div class="card-body">
+            <div class="table-listing">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Descrição</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Teste</td>
+                            <td>10</td>
+                            <td>R$ 25,00</td>
+                            <td>Editar | Excluir</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>    
+        </div>
+    </div>
 {% endblock %}

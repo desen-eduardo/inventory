@@ -30,4 +30,10 @@ abstract class Controller
 			throw new \Exception("Error: Não foi encontrado o template".$e->getMessage());
 		}
     }
+
+	public function redirect(string $name): void
+	{
+		header('Location:'.BASE_URL.$name);
+	}
+
 }
