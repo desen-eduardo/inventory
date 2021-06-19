@@ -10,6 +10,14 @@ html,body{
     width:100%;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 main{
     width:100vw;
     display: flex;
@@ -21,9 +29,10 @@ header{
     width:100%;
     background: linear-gradient(to top, rgb(248, 80, 50), rgb(231, 56, 39));
     box-sizing: border-box;
-    padding-left: 100px;
     display: flex;
+    padding: 0px 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
 header > h1{
@@ -32,6 +41,22 @@ header > h1{
     text-decoration: underline;
 }
 
+nav ul {
+    display: flex;
+    font-size: 0.85rem;
+}
+
+nav ul li{
+    padding-left: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
 section{
     width:100%;
     display: flex;
